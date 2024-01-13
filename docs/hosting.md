@@ -56,11 +56,11 @@ sphinx:
 caption: コミットとGitHubへプッシュ
 ---
 
-git init -b main
-git remote add origin git@github.com:your_github_account/my-first-sphinx-docs.git
-git add .
-git commit -m "first commit"
-git push origin main
+$ git init -b main
+$ git remote add origin git@github.com:your_github_account/my-first-sphinx-docs.git
+$ git add .
+$ git commit -m "first commit"
+$ git push origin main
 ```
 
 [Read the Docs](https://readthedocs.org/) へログインし、「プロジェクトを取り込む」をクリックします。
