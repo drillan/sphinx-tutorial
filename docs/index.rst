@@ -12,6 +12,7 @@ Sphinx超入門
 
    get-started
    markdown
+   hosting
 
 Indices and tables
 ==================
