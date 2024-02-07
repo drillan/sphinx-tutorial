@@ -4,6 +4,12 @@
 
 SphinxはテキストからHTMLやLaTeX（PDF）、EPUBなどのドキュメントに出力するツールです。豊富な拡張機能が提供されており、APIドキュメントの自動作成など、技術者向けのマニュアル作成などに適しています。
 
+## Google Colab
+
+Google Colab上で実行する場合は、次のリンクをクリックします。
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/drillan/sphinx-tutorial/blob/main/sample-doc01/sphinx-tutorial.ipynb)
+
 ## インストール
 
 まずはプロジェクトのディレクトリ（フォルダ）を作成します。
