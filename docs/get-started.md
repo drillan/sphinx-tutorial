@@ -2,7 +2,7 @@
 
 ## Sphinxとは
 
-SphinxはテキストからHTMLやLaTeX（PDF）、ePubなどのドキュメントに出力するツールです。豊富な拡張機能が提供されており、APIドキュメントの自動作成など、技術者向けのマニュアル作成などに適しています。
+SphinxはテキストからHTMLやLaTeX（PDF）、EPUBなどのドキュメントに出力するツールです。豊富な拡張機能が提供されており、APIドキュメントの自動作成など、技術者向けのマニュアル作成などに適しています。
 
 ## インストール
 
@@ -17,7 +17,7 @@ $ mkdir sphinx-sample
 $ cd sphinx-sample
 ```
 
-ここではPythonの仮想環境を利用して、Sphinxをインストールします。
+ここではPythonの仮想環境を利用して、Sphinxをインストールします。pythonコマンドは必要に応じてpython3に置き換えてください。
 
 ```{code-block} bash
 ---
@@ -50,7 +50,7 @@ $ python -m pip install sphinx
 
 ## プロジェクトの作成
 
-`sphinx-quickstart` コマンドを使い、いくつかの質問に入力することでプロジェクトを作成します。「プロジェクト名」と「著者名」に任意の文字列を入力し、ほかはデフォルトで進みます。
+`sphinx-quickstart` コマンドを使い、いくつかの質問に入力することでプロジェクトを作成します。ここでは、「プロジェクト名」と「著者名」に任意の文字列を入力し、ほかはデフォルトで進みます。
 
 ```{code-block} bash
 ---
@@ -96,7 +96,7 @@ https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-language �
 
 ```
 
-## HTMLへのビルド
+## HTMLへビルド
 
 `make html` コマンドでHTMLファイルにビルドします。
 

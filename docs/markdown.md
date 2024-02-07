@@ -1,6 +1,6 @@
 # Markdownによる記述
 
-Sphinxはデフォルトで、reStructuredText (reST)というマークアップ言語で記述しまが、Markdownやその拡張であるMySTでも記述できます。
+Sphinxはデフォルトで、reStructuredText (reST)というマークアップ言語で記述しますが、Markdownやその拡張であるMySTでも記述できます。
 
 Markdown（MyST）を使うには、Sphinx拡張の [MyST-Parser](https://myst-parser.readthedocs.io/en/latest/) をインストールします。
 
@@ -12,7 +12,7 @@ caption: MyST-Parserのインストール
 $ python -m pip install myst-parser
 ```
 
-次に `conf.py` に `'myst_parser'` を追加します。
+次に `conf.py` の `extensions` のリストに `'myst_parser'` を追加します。
 
 ```{literalinclude} ../sample-doc01/conf.py
 ---
@@ -54,9 +54,7 @@ caption: hello.md
 >> ネストされた引用
 ```
 
-`hello.md` をtoctreeに追加します。toctreeとは複数の文書を構造化するために使われます。toctreeでは、章-節などの複雑な構造をもつ文書を作成できますが、ここではtoctreeに記述したファイルの順番に文書が出力されると覚えておいてください。toctreeにファイルを追加するときに、ファイルの拡張子は記述しません。
-
-HTMLにビルドします、HTMLに `hello.md` が追加されます。
+`index.rst` に `hello.md` をtoctreeに追加します。toctreeとは複数の文書を構造化するために使われます。toctreeでは、章-節などの複雑な構造をもつ文書を作成できますが、ここではtoctreeに記述したファイルの順番に文書が出力されると覚えておいてください。toctreeにファイルを追加するときに、ファイルの拡張子は記述しません。
 
 ```{literalinclude} ../sample-doc01/index.rst
 ---
@@ -67,3 +65,12 @@ emphasize-lines: 13
 ---
 ```
 
+HTMLにビルドします、HTMLに `hello.md` の内容が追加されます。
+
+```{code-block} bash
+---
+caption: HTMLへビルド
+---
+
+$ make html
+```

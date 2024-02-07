@@ -49,7 +49,7 @@ sphinx:
   configuration: conf.py
 ```
 
-コミットし、GitHubへプッシュします。
+コミットし、GitHubへプッシュします。 `your_github_account` はGitHubアカウント名を指定します。
 
 ```{code-block} bash
 ---
