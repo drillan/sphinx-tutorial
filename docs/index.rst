@@ -12,7 +12,8 @@ Sphinx超入門
 
    get-started
    markdown
-   hosting
+   hosting-rtd
+   hosting-netlify
 
 Indices and tables
 ==================
