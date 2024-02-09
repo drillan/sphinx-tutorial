@@ -1,4 +1,4 @@
-(my-label)=
+(hosting-rtd)=
 # Read the Docsへのホスト
 
 GitHubのリポジトリを作成します。ここでは `my-first-sphinx-docs` とします。ビルドしたファイルなどを除外するため、 `Add .gitignore
